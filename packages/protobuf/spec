@@ -1,0 +1,5 @@
+---
+name: protobuf
+dependencies: []
+files:
+- protobuf/protobuf-2.6.1.tar.gz

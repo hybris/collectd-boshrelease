@@ -1,0 +1,6 @@
+---
+name: protobuf-c
+dependencies:
+- protobuf
+files:
+- protobuf-c/protobuf-c-1.1.1.tar.gz
