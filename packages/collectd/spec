@@ -3,5 +3,8 @@ name: collectd
 dependencies:
 - python
 - yajl
+- libgcrypt
+- protobuf-c
+- protobuf
 files:
 - collectd/collectd-5.4.1.tar.gz
