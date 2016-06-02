@@ -30,8 +30,8 @@ CPUS=$(grep -c ^processor /proc/cpuinfo)
 # $BOSH_COMPILE_TARGET - where this package & spec'd source files are available
 # $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
 
-tar xjf libgpg-error/libgpg-error-1.21.tar.bz2
+tar xjf libgpg-error/libgpg-error-1.22.tar.bz2
 
-cd libgpg-error-1.21
+cd libgpg-error-1.22
 ./configure --prefix=${BOSH_INSTALL_TARGET}
 make -j${CPUS} install

@@ -1,0 +1,5 @@
+---
+name: librdkafka
+dependencies: []
+files:
+- librdkafka/librdkafka-0.9.1.tar.gz

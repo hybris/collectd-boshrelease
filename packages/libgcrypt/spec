@@ -3,4 +3,4 @@ name: libgcrypt
 dependencies:
 - libgpg-error
 files:
-- libgcrypt/libgcrypt-1.6.4.tar.bz2
+- libgcrypt/libgcrypt-1.7.0.tar.bz2

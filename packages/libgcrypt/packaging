@@ -31,9 +31,9 @@ CPUS=$(grep -c ^processor /proc/cpuinfo)
 # $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
 
 
-tar xjf libgcrypt/libgcrypt-1.6.4.tar.bz2
+tar xjf libgcrypt/libgcrypt-1.7.0.tar.bz2
 
-cd libgcrypt-1.6.4
+cd libgcrypt-1.7.0
 ./configure --prefix=${BOSH_INSTALL_TARGET} \
-    --with-libgpg-error-prefix=/var/vcap/packages/libgpg-error
+  --with-libgpg-error-prefix=/var/vcap/packages/libgpg-error
 make -j${CPUS} install

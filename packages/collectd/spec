@@ -4,7 +4,9 @@ dependencies:
 - python
 - yajl
 - libgcrypt
-- protobuf-c
+- libgpg-error
+- librdkafka
 - protobuf
+- protobuf-c
 files:
-- collectd/collectd-5.4.1.tar.gz
+- collectd/collectd-5.5.0.tar.gz
