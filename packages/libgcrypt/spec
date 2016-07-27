@@ -1,6 +1,0 @@
----
-name: libgcrypt
-dependencies:
-- libgpg-error
-files:
-- libgcrypt/libgcrypt-1.7.0.tar.bz2

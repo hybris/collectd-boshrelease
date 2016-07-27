@@ -6,6 +6,9 @@ templates:
   bin/monit_debugger: bin/monit_debugger
   bin/collectd_ctl: bin/collectd_ctl
   config/collectd.conf.erb: config/collectd.conf
+  collectd.d/write_riemann.conf.erb: collectd.d/write_riemann.conf
+  collectd.d/df.conf: collectd.d/df.conf
+  collectd.d/cpu.conf: collectd.d/cpu.conf
   collectd.d/config.conf.erb: collectd.d/config.conf
   data/properties.sh.erb: data/properties.sh
   helpers/ctl_setup.sh: helpers/ctl_setup.sh
@@ -27,6 +30,10 @@ properties:
   collectd.hostname_prefix:
     default: ""
     description: "A prefix used in the hostname (suffixed by `job.index`)."
+
+  collectd.riemann_server:
+    default: ""
+    description: "Riemann server to send statistics to"
 
   collectd.config:
     default: ""

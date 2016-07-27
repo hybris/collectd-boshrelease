@@ -1,5 +1,0 @@
----
-name: libgpg-error
-dependencies: []
-files:
-- libgpg-error/libgpg-error-1.22.tar.bz2
